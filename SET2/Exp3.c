@@ -1,10 +1,3 @@
-//
-//  main.c
-//  SortingAlgorithms
-//
-//  Created by Apoorv Krishan on 24/08/26.
-//
-
 #include <stdio.h>
 
 #define MAX 100
@@ -288,14 +281,14 @@ void addressSort(int a[], int n) {
 
 int main(void) {
     int a[MAX],n,choice,i;
-
+    
     printf("Enter number of elements: ");
     scanf("%d",&n);
-
+    
     printf("Enter elements: ");
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
-
+    
     printf("\n--- SORTING MENU ---\n");
     printf("1. Insertion Sort\n");
     printf("2. Bubble Sort\n");
@@ -309,10 +302,10 @@ int main(void) {
     printf("10. Bucket Sort\n");
     printf("11. Radix Exchange Sort\n");
     printf("12. Address Calculation Sort\n");
-
+    
     printf("Enter choice: ");
     scanf("%d",&choice);
-
+    
     switch(choice) {
         case 1: insertion(a,n); break;
         case 2: bubble(a,n); break;
@@ -330,10 +323,10 @@ int main(void) {
             printf("Invalid choice");
             return 0;
     }
-
+    
     printf("\nSorted array: ");
     print(a,n);
-
+    
     return 0;
 }
 

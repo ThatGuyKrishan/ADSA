@@ -1,10 +1,3 @@
-//
-//  main.c
-//  ExpressionEvaluation
-//
-//  Created by Apoorv Krishan on 31/08/26.
-//
-
 #include <stdio.h>
 #include <ctype.h>
 

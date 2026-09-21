@@ -1,10 +1,3 @@
-//
-//  main.c
-//  InfixToPrefix
-//
-//  Created by Apoorv Krishan on 24/08/26.
-//
-
 #include <stdio.h>
 #include <ctype.h>
 
